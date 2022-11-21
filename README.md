@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Alvim
-- 👀 I’m interested in back-end and devlop aplications and mobile apps
+- 👀 I’m interested in back-end and mobile apps
 - 🌱 I’m currently learning Java & C#
 - 📫 How to reach me: <br>
     - LinkedIn: bernardo-alvim
