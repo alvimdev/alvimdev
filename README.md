@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Alvim
-- 👀 I’m interested in back-end and mobile apps
-- 🌱 I’m currently learning Java & C#
+- 👀 I’m interested in full-stack and mobile apps
+- 🌱 I’m currently learning ReactJS
 - 📫 How to reach me: <br>
     - LinkedIn: bernardo-alvim
 
