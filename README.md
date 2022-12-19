@@ -1,11 +1,10 @@
 <h1>Presentation</h1>
 
-- 👋 Hi, I’m Alvim
-- 👀 I’m interested in full-stack and mobile apps
-- 🌱 I’m currently learning ReactJS
-- 📫 How to reach me: <br/>
-    - LinkedIn: [LinkedIn.com](https://www.linkedin.com/in/bernardo-alvim)
-    - Other links: [AlvimLinks.net](https://alvimlinks.netlify.app)
+🖖 Hi, I’m Alvim <br>
+👾 I’m interested in full-stack and mobile apps <br>
+📓 I’m currently learning ReactJS <br>
+🎈 How to reach me: https://alvimlinks.netlify.app <br>
+❕ LinkedIn on bio ;)
 
 <!---
 alvimdev/alvimdev is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
