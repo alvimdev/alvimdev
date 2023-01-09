@@ -2,7 +2,7 @@
 
 🖖 Hi, I’m Alvim <br>
 👾 I’m interested in full-stack and mobile apps <br>
-📓 I’m currently learning ReactJS <br>
+📓 I’m currently learning Kotlin <br>
 🎈 How to reach me: https://alvimlinks.netlify.app <br>
 ❕ LinkedIn on bio ;)
 
