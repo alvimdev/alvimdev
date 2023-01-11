@@ -109,8 +109,8 @@
   <img src="https://proinfluent.b-cdn.net/wp-content/uploads/2019/05/Logo-LinkedIn-blanc.png" alt=linkedin style="margin-bottom: 20px; ;height: 30px"/>
 </a>
   <br><br>
-<a href"mailto:alvim103@gmail.com" target="_blank">
-  <img src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-1-1.png" t="mail" alt="mail" style="margin-bottom: 5px; height: 26px"/>
+<a href="mailto:alvim103@gmail.com" target="_blank">
+  <img src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-1-1.png" t="mail" alt="gmail" style="margin-bottom: 5px; height: 26px"/>
 </a>
 
 <br>
