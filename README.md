@@ -135,9 +135,9 @@
 
 <br>
 
-Credit: [Abdul Khalid](https://github.com/0xabdulkhalid)
+Credit: <del>[Abdul Khalid](https://github.com/0xabdulkhalid)</del>
 
-Last Edited on: 11/01/2023
+Last Edited on: <em>14/01/2023</em>
 
 <!---
 
