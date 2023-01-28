@@ -113,11 +113,11 @@
 <div align='center'>
 
 <a href="https://linkedin.com/in/bernardo-alvim" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt=linkedin style="margin-bottom: 20px; height: 30px"/>
+  <img src="https://img.shields.io/badge/%EF%BE%A0-Linkedin-blue" alt=linkedin style="margin-bottom: 20px; height: 30px"/>
 </a>
 <img href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Invisible_Pink_Unicorn_High_Resolution.png/1200px-Invisible_Pink_Unicorn_High_Resolution.png"/>
 <a href="mailto:alvim103@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" t="mail" alt="gmail" style="margin-bottom: 5px; height: 30px"/>
+  <img src="https://img.shields.io/badge/%EF%BE%A0-Gmail-red" t="mail" alt="gmail" style="margin-bottom: 5px; height: 30px"/>
 </a>
 
 <br>
