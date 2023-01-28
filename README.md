@@ -108,16 +108,16 @@
 
 <br>
 
-## <b> Let's Connect..!</b><img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
+## <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"><b> Let's Connect..!</b>
 <br>
-<div align='left'>
+<div align='center'>
 
 <a href="https://linkedin.com/in/bernardo-alvim" target="_blank">
-  <img src="https://proinfluent.b-cdn.net/wp-content/uploads/2019/05/Logo-LinkedIn-blanc.png" alt=linkedin style="margin-bottom: 20px; ;height: 30px"/>
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt=linkedin style="margin-bottom: 20px; height: 30px"/>
 </a>
-  <br><br>
+<img href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Invisible_Pink_Unicorn_High_Resolution.png/1200px-Invisible_Pink_Unicorn_High_Resolution.png"/>
 <a href="mailto:alvim103@gmail.com" target="_blank">
-  <img src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-1-1.png" t="mail" alt="gmail" style="margin-bottom: 5px; height: 26px"/>
+  <img src="https://img.shields.io/badge/Gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" t="mail" alt="gmail" style="margin-bottom: 5px; height: 30px"/>
 </a>
 
 <br>
