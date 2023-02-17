@@ -1,5 +1,5 @@
 
-<h1 align="center"><b>Hi , I'm Bernardo Alvim </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<h1 align="center"><b>Hi , I'm Alvim </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=30%&center=true&vCenter=true&width=900&height=100&lines=Welcome+<3;"></a>
@@ -15,7 +15,7 @@
 
 <br>
 
-- 16y <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/toss-face/342/flag-brazil_1f1e7-1f1f7.png" alt="🇧🇷" style="height: 14px"/>
+- 16y :brazil:
 - Studying systems development at "Colégio Técnico da UFMG"
 - Playing <strong>csgo</strong> at spare time
 - Currently learning React and Java/Kotlin mobile
