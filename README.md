@@ -15,7 +15,7 @@
 
 <br>
 
-- 16y :brazil:
+- 17y :brazil:
 - Studying systems development at "Colégio Técnico da UFMG"
 - Playing <strong>csgo</strong> at spare time
 - Currently learning React and Java/Kotlin mobile
@@ -145,7 +145,7 @@
 
 Credit: <del>[Abdul Khalid](https://github.com/0xabdulkhalid)</del>
 
-Last Edited on: <em>14/01/2023</em>
+Last Edited on: <em>13/06/2023</em>
 
 <!---
 
