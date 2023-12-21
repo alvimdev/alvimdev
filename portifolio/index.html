@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/ico.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Raleway:wght@200&family=Roboto:wght@100;300;400;500;700;900&family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    <title>alvimdev's portifolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="assets/ico.png" alt="icon" onclick="showProject('home')">
+        <ul class="hdbtn">
+            <li><button class="enbtn" onclick="switchToEnglish()">ENG</button></li>
+            <li><button class="ptbtn" onclick="switchToPortuguese()" style="border-bottom: solid 1px rgb(224, 171, 25);">PTBR</button></li>
+        </ul>
+        <ul class="social">
+            <li><a target="_blank" href="https://linkedin.com/in/bernardo-alvim"><img src="assets/linkedin-in.svg" height="26px" alt="linkedin"></a></li>
+            <li><a target="_blank" href="https://github.com/alvimdev"><img src="assets/github.svg" height="26px" alt=""></a></li>
+            <li><a target="_blank" href="https://instagram.com/alvinn.art"><img src="assets/instagram.svg" height="26px" alt="insta"></a></li>
+        </ul>
+    </header>
+    <article>
+        <section id="home">
+            <h1>WELCOME</h1>
+            <p id="home-eng" style="display: none;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius officia expedita tenetur ut facere possimus nesciunt voluptatem est architecto, perferendis repudiandae eum enim animi modi ducimus nobis distinctio voluptas! Libero!</p>
+            <p id="home-ptbr" style="display: block;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt facilis hic repellendus illum, dignissimos aut eveniet ullam nostrum iusto dolores, sequi enim ipsam? In eaque, itaque quas velit rerum quo?</p>
+        </section>
+        <section id="jairel" style="display: none;">
+            <h1>JAIREL</h1>
+            <p id="jairel-eng" style="display: none;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius officia expedita tenetur ut facere possimus nesciunt voluptatem est architecto, perferendis repudiandae eum enim animi modi ducimus nobis distinctio voluptas! Libero!</p>
+            <p id="jairel-ptbr" style="display: block;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt facilis hic repellendus illum, dignissimos aut eveniet ullam nostrum iusto dolores, sequi enim ipsam? In eaque, itaque quas velit rerum quo?</p>
+        </section>
+        <section id="flappycupy" style="display: none;">
+            <h1>Flappy Cupy</h1>
+            <p id="flappycupy-eng" style="display: none;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius officia expedita tenetur ut facere possimus nesciunt voluptatem est architecto, perferendis repudiandae eum enim animi modi ducimus nobis distinctio voluptas! Libero!</p>
+            <p id="flappycupy-ptbr" style="display: block;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt facilis hic repellendus illum, dignissimos aut eveniet ullam nostrum iusto dolores, sequi enim ipsam? In eaque, itaque quas velit rerum quo?</p>
+        </section>
+        <section id="10songs" style="display: none;">
+            <h1>LastFM Project</h1>
+            <p id="10songs-eng" style="display: none;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius officia expedita tenetur ut facere possimus nesciunt voluptatem est architecto, perferendis repudiandae eum enim animi modi ducimus nobis distinctio voluptas! Libero!</p>
+            <p id="10songs-ptbr" style="display: block;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt facilis hic repellendus illum, dignissimos aut eveniet ullam nostrum iusto dolores, sequi enim ipsam? In eaque, itaque quas velit rerum quo?</p>
+        </section>
+        <section id="linktree" style="display: none;">
+            <h1>My Linktree</h1>
+            <p id="linktree-eng" style="display: none;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius officia expedita tenetur ut facere possimus nesciunt voluptatem est architecto, perferendis repudiandae eum enim animi modi ducimus nobis distinctio voluptas! Libero!</p>
+            <p id="linktree-ptbr" style="display: block;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt facilis hic repellendus illum, dignissimos aut eveniet ullam nostrum iusto dolores, sequi enim ipsam? In eaque, itaque quas velit rerum quo?</p>
+        </section>
+        <aside class="projects">
+            <h2>Projects</h2>
+            <ul class="pl">
+                <li><button class="pjbtn jairel" onclick="showProject('jairel')">JAIREL</button></li>
+                <li><button class="pjbtn flappycupy" onclick="showProject('flappycupy')">FlappyCupy</button></li>
+                <li><button class="pjbtn 10songs" onclick="showProject('10songs')">10 Songs - LastFM API</button></li>
+                <li><button class="pjbtn linktree" onclick="showProject('linktree')">Linktree: <span class="alvimm">alvimm</span></button></li>
+            </ul>
+        </aside>
+    </article>
+</body>
+
+</html>
