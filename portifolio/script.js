@@ -17,7 +17,7 @@ function switchToEnglish() {
     switchSectionLanguage('jairel', 'eng');
     switchSectionLanguage('flappycupy', 'eng');
     switchSectionLanguage('10songs', 'eng');
-    switchSectionLanguage('linktree', 'eng');
+    //switchSectionLanguage('linktree', 'eng');
 
     document.querySelector('.enbtn').style.borderBottom = 'solid 1px rgb(224, 171, 25)';
     document.querySelector('.ptbtn').style.border = 'none';
@@ -29,7 +29,7 @@ function switchToPortuguese() {
     switchSectionLanguage('jairel', 'ptbr');
     switchSectionLanguage('flappycupy', 'ptbr');
     switchSectionLanguage('10songs', 'ptbr');
-    switchSectionLanguage('linktree', 'ptbr');
+    //switchSectionLanguage('linktree', 'ptbr');
 
     document.querySelector('.enbtn').style.border = 'none';
     document.querySelector('.ptbtn').style.borderBottom = 'solid 1px rgb(224, 171, 25)';
@@ -37,7 +37,7 @@ function switchToPortuguese() {
 
 function showProject(projectId) {
     // Oculta todas as seções de projetos
-    const projectSections = ['home', 'jairel', 'flappycupy', '10songs', 'linktree'];
+    const projectSections = ['home', 'jairel', 'flappycupy', '10songs'];
     projectSections.forEach(sectionId => {
         const section = document.getElementById(sectionId);
         if (section) {
