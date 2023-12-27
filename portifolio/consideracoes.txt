@@ -1,0 +1,1 @@
+a aplicação ainda não está responsiva e ainda falta implementar algumas animações
