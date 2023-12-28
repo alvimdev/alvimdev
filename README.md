@@ -19,7 +19,7 @@
 - Studying systems development at "Colégio Técnico da UFMG"
 - Playing <strong>csgo</strong> at spare time
 - Currently learning React and Java/Kotlin mobile
-- Personal website [link](https://alvimlinks.netlify.app)
+- Personal website [link](https://alvimdev.github.io/alvimdev/portifolio/)
 
 <br>
 
