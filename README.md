@@ -15,8 +15,9 @@
 
 <br>
 
-- 17y :brazil:
-- Studying systems development at "Colégio Técnico da UFMG"
+- 18y :brazil:
+- Systems development at "Colégio Técnico da UFMG" - 2023 👨‍🎓
+- Studying Software Engenering at "Pontifica Universidade Catolica de Minas Gerais"
 - Playing <strong>csgo</strong> at spare time
 - Currently learning React and Java/Kotlin mobile
 - Personal website [link](https://alvimdev.github.io/alvimdev/portifolio/)
