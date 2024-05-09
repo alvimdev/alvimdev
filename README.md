@@ -19,7 +19,7 @@
 - Systems development at "Colégio Técnico da UFMG" - 2023 👨‍🎓
 - Studying Software Engenering at "Pontifica Universidade Catolica de Minas Gerais"
 - Playing <strong>csgo</strong> at spare time
-- Currently learning React and Java/Kotlin mobile
+- Currently learning React and Vite
 - Personal website [link](https://alvimdev.github.io/alvimdev/portifolio/)
 
 <br>
@@ -148,7 +148,7 @@
 
 Credit: <del>[Abdul Khalid](https://github.com/0xabdulkhalid)</del>
 
-Last Edited on: <em>16/08/2023</em>
+Last Edited on: <em>09/05/2024</em>
 
 <!---
 
