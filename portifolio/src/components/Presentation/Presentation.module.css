@@ -193,15 +193,18 @@
     }
 
     .title {
-        font-size: 3rem;
-        line-height: 3rem;
+        font-size: 4.5rem;
+        line-height: 4rem;
+        justify-content: center;
+        margin-bottom: 2rem;
 
         & b {
-            font-size: 3rem;
+            font-size: 4.5rem;
         }
 
         & i {
-            font-size: 3.5rem;
+            font-size: 5rem;
+            padding-left: 30%;
         }
     }
 
@@ -233,7 +236,22 @@
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 735px) {
+    .title {
+        font-size: 3.5rem;
+        line-height: 3rem;
+        justify-content: center;
+
+        & b {
+            font-size: 3.5rem;
+        }
+
+        & i {
+            font-size: 4rem;
+            padding-left: 30%;
+        }
+    }
+
     .download_button {
         max-width: 30%;
 
