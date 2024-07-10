@@ -1,0 +1,90 @@
+.projects {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+    & h3 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+}
+
+.repositories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    
+    & .repo_card {
+        background-color: #f2f2f267;
+        width: 30%;
+        border-radius: 10px;
+        font-family: Poppins, sans-serif;
+        
+        & .repo_info {
+            height: calc(100% - 160px);
+            padding: 10px 1rem 1rem 1rem;
+            display: grid;
+
+            & h4 {
+                font-size: 22px;
+                margin-bottom: 1rem;
+            }
+
+            & p {
+                font-size: 14px;
+                color: #e0dede;
+                margin-bottom: 2rem;
+            }
+        }
+
+        & img {
+            width: 100%;
+            height: 160px;
+            border-radius: 10px 10px 0 0;
+        }
+    }
+}
+
+.github_link {
+    background-color: var(--bg-fst-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 auto 0 0;
+    max-height: 45px;
+    align-self: flex-end;
+    display: inline-flex;
+    align-items: center;
+    transition: 400ms;
+
+    & .github_icon {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+}
+
+.github_link:hover {
+    transform: scale(1.07);
+    transition: 400ms;
+}
+
+@media (max-width: 1000px){
+    .repositories .repo_card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 720px) {
+    .repositories .repo_card {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px){
+    .repositories .repo_card {
+        width: 90%;
+    }
+}

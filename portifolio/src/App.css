@@ -1,8 +1,42 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  /* background-image: linear-gradient(to bottom, #6b0c90, #5b1182, #4c1373, #3f1365, #321256, #2a114c, #231043, #1c0e39, #180c32, #15092c, #120525, #0d011f); */
+  /* background-image: linear-gradient(to bottom, #6b0c90, #600d8a, #560d84, #4b0d7e, #410d78, #380e6f, #300e65, #280e5c, #210e4e, #1a0d40, #160932, #120325); */
+  /* background: radial-gradient(circle at 60%, var(--bg-fst-color) 10%, var(--bg-snd-color)  50%); */
+  background: 
+    linear-gradient(
+      to bottom, 
+      rgba(107, 12, 144, 0),
+      #5b1182 10%, 
+      #4c1373, 
+      #3f1365, 
+      rgba(107, 12, 144, 0),
+      #321256, 
+      #2a114c, 
+      #231043, 
+      #1c0e39, 
+      #180c32, 
+      #15092c, 
+      #120525, 
+      #0d011f
+    ),
+    radial-gradient(
+      circle at 50% 50%, 
+      var(--bg-fst-color) 0%, 
+      var(--bg-snd-color) 10%
+    )
+  ;
+  min-height: 100dvh;
+}
+
+main {
+  padding: 15% 8%;
+  color: var(--main-text);
 }
 
 .logo {
@@ -27,16 +61,8 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 480px){
+  main {
+    padding-top: 40%;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
