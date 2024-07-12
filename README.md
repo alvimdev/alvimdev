@@ -35,15 +35,20 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
 <br>
 
-<div align="center">
+<div align="center" style="display: flex; flex-wrap: wrap;">
 <a href="https://github.com/alvimdev/">
   <img src="https://github-readme-alvim-stats.vercel.app/api?username=alvimdev&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" height="150" />
 </a>
 
 <a href="https://github.com/alvimdev/">
-  <img src="https://github-readme-alvim-stats.vercel.app/api/top-langs?username=alvimdev&show_icons=true&locale=en&layout=compact&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" height="150"  alt="Alvinn"/>
+  <img src="https://github-readme-alvim-stats.vercel.app/api/top-langs?username=alvimdev&show_icons=true&locale=en&layout=compact&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" height="150" alt="Alvinn"/>
+</a>
+
+<a href="https://wakatime.com/@alvimdev">
+  <img src="https://github-readme-alvim-stats.vercel.app/api/wakatime?username=alvimdev&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" height="150" alt="Wakatime Stats"/>
 </a>
 </div>
+
 
 <br>
 <br>
