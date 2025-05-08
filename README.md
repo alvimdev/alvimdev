@@ -37,20 +37,31 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
 <br>
 
-<div align="center" style="display: flex; flex-wrap: wrap;">
-<a href="https://github.com/alvimdev/">
-  <img src="https://github-readme-alvim-stats.vercel.app/api?username=alvimdev&include_all_commits=true&count_private=true&rank_icon=github&show_icons=true&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" height="150" />
-</a>
-
-<a href="https://github.com/alvimdev/">
-  <img src="https://github-readme-alvim-stats.vercel.app/api/top-langs?username=alvimdev&show_icons=true&locale=en&layout=compact&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" height="150"/>
-</a>
-
-<a href="https://wakatime.com/@alvimdev">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=alvimdev&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" height="250" alt="Wakatime Stats"/>
-</a>
+<div align="center">
+<table>
+<td>
+<img alt="GitHub Stats" width="200px" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=alvimdev&theme=transparent&include_all_commits=true"/>
+</td>
+<td>
+<img alt="GitHub Top Langs" width="200px" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=alvimdev&theme=transparent"/>
+</td>
+<td>
+<img alt="GitHub Details" width="420px" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alvimdev&theme=transparent"/>
+</td>
+</tr>
+<tr>
+<td>
+<img alt="GitHub Commits" width="200px" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=alvimdev&theme=transparent&utcOffset=8"/>
+</td>
+<td>
+<img alt="GitHub Commits" width="200px" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=alvimdev&theme=transparent"/>
+</td>
+<td>
+<img alt="WakaTime" height="90" src="https://github.com/user-attachments/assets/cc220cb7-2ba4-4401-9e7e-14fcc2e57fa8"/>
+</td>
+</tr>
+</table>
 </div>
-
 
 <br>
 <br>
