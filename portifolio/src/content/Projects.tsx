@@ -8,7 +8,7 @@ const projects: Project[] = [
       "Plataforma de agendamento para uma clínica de massoterapia. Backend com Spring Boot, autenticação via JWT, agenda dinâmica e frontend Astro.",
     link: "https://github.com/alvim-puc/avila-lotus",
     imageUrl: "avila-lotus.png",
-    tags: ["Massoterapia", "Automação", "Reserva"],
+    tags: ["Massoterapia", "Automação", "Reserva", "Agenda", "Bem-estar"],
     stack: ["Astro", "Java", "Tailwind CSS", "Spring Boot", "MySQL"],
   },
   {
@@ -35,7 +35,7 @@ const projects: Project[] = [
       "Muitas pessoas enfrentam dificuldades para organizar suas finanças — seja por falta de planejamento, excesso de gastos ou desconhecimento das próprias metas. O CashCraft nasceu como uma forma leve e interativa de ajudar usuários a entenderem melhor sua vida financeira e começarem a se organizar de forma prática.",
     link: "https://github.com/alvim-puc/cash-craft",
     imageUrl: "cash-craft.png",
-    tags: ["Gamification", "React", "Hooks"],
+    tags: ["Gamification", "Controle Financeiro", "Planejamento", "Organização"],
     stack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "JSON Server", "Bootstrap CSS"],
   },
 ];

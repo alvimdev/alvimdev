@@ -1,7 +1,13 @@
+"use client";
+
+import MailModal from "@/components/modals/MailModal";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Aside() {
+  const [showMailModal, setShowMailModal] = useState(false);
+
   return (
     <aside className="flex flex-col items-center md:mt-12 gap-6 bg-[#1a1a1d] p-6 rounded-xl shadow-lg text-white max-w-[280px] h-fit w-full">
       {/* Foto + Nome + Título */}
@@ -34,9 +40,9 @@ export default function Aside() {
           </Link>
         </li>
         <li>
-          <Link href="https://discordapp.com/users/alvimb_" target="_blank">
-            <i className="bi bi-discord hover:text-[#8c52ff] transition" />
-          </Link>
+          <button className="cursor-pointer" onClick={() => setShowMailModal(true)}>
+            <i className="bi bi-send-fill hover:text-[#8c52ff] transition"></i>
+          </button>
         </li>
       </ul>
 
@@ -69,6 +75,10 @@ export default function Aside() {
           </li>
         </ul>
       </nav>
+      {/* Modal de E-mail */}
+      {showMailModal && (
+        <MailModal onClose={() => setShowMailModal(false)} />
+      )}
     </aside>
   );
 }
