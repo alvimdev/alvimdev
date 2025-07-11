@@ -12,7 +12,7 @@ const techs = [
   { skill: "PostgreSQL", level: 3 },
   { skill: "SQLite", level: 2 },
   { skill: "MySQL", level: 4 },
-  { skill: "Git", level: 4 },
+  { skill: "GitHub", level: 5 },
   { skill: "Linux", level: 4 },
   { skill: "Node.js", level: 3 },
 ];
@@ -30,7 +30,7 @@ export default function Stacks() {
           >
             <div className="flex justify-between items-center gap-3 text-xs">
               <span>{skill}</span>
-              <div className="flex gap-[1px] text-[#8c52ff] text-sm border-l border-gray-400 pl-2">
+              <div className="flex gap-[1px] text-[#8c52ff] border-l border-gray-400 pl-2">
                 {level} <i className="bi bi-stars"></i>
               </div>
             </div>

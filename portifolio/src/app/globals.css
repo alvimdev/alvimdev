@@ -63,3 +63,9 @@ body {
   scrollbar-width: thin;
   scrollbar-color: rgba(128, 128, 128, 0.3) transparent;
 }
+
+h2 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: var(--color-primary);
+}

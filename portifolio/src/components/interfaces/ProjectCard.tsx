@@ -15,10 +15,10 @@ export default function ProjectCard({ project }: CardProps) {
   } = project;
 
   return (
-    <article className="bg-[#2c2c2c] p-4 rounded-md border border-[#444] hover:border-[#8c52ff] transition">
+    <article className="bg-[#2c2c2c] p-4 rounded-md border border-[#444] hover:border-[#8c52ff] transition hover:shadow-md hover:shadow-[#8c52ff]">
       <a href={link} target="_blank" rel="noopener noreferrer">
         <img
-          src={imageUrl}
+          src={`/images/projects/${imageUrl}`}
           alt={title}
           className="w-full h-48 object-cover rounded-md mb-4"
         />
