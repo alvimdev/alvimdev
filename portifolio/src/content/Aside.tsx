@@ -41,7 +41,7 @@ export default function Aside() {
         </li>
         <li>
           <button className="cursor-pointer" onClick={() => setShowMailModal(true)}>
-            <i className="bi bi-send-fill hover:text-[#8c52ff] transition"></i>
+            <i className="bi bi-envelope-at-fill hover:text-[#8c52ff] transition"></i>
           </button>
         </li>
       </ul>

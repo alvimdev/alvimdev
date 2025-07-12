@@ -88,7 +88,7 @@ export default function MailModal({ onClose }: MailModalProps) {
           &times;
         </button>
 
-        <div className="grid md:grid-cols-2">
+        <div className="flex flex-col-reverse md:grid md:grid-cols-2">
           {/* Formulário */}
           <form className="p-6 flex flex-col gap-4" onSubmit={handleSubmit}>
             <div className="flex flex-col gap-1">
@@ -181,7 +181,7 @@ export default function MailModal({ onClose }: MailModalProps) {
           </form>
 
           {/* Painel informativo */}
-          <div className="hidden md:flex flex-col justify-center gap-4 bg-[#1f1f23] p-6 text-gray-300 text-center">
+          <div className="flex flex-col justify-center gap-4 bg-[#1f1f23] p-6 text-gray-300 text-center">
             <h3 className="text-2xl font-bold text-white italic font-serif">
               Get in touch!
             </h3>
