@@ -1,13 +1,10 @@
-import { sendContactMail } from "@/lib/mailer";
-import { MailInput } from "@/types/mail";
+import { ratelimit } from "@/lib/ratelimiter";
 
 export async function GET() {
-  const input: MailInput = {
-    name: "me",
-    email: process.env.SMTP_USER || "example@mail.com",
-    subject: "Ping",
-    message: "Keep alive",
-  };
-  await sendContactMail(input);
+  const { success } = await ratelimit.limit("ping");
+  if (!success) {
+    return new Response("Rate limit hit", { status: 429 });
+  }
+
   return new Response("pong");
 }
