@@ -58,7 +58,7 @@ export default function MailModal({ onClose }: MailModalProps) {
       setResult("E-mail enviado com sucesso!");
       setFormData({ name: "", email: "", subject: "", message: "" });
     } catch (err: any) {
-      setResult(`Erro ao enviar e-mail: ${err.message}`);
+      setResult(`Erro ao enviar e-mail: ${err}`);
       console.error("Erro ao enviar e-mail", err);
     } finally {
       setLoading(false);
