@@ -1,0 +1,36 @@
+@utility footer-label {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-purple-light);
+  opacity: 0.5;
+}
+
+@utility footer-input {
+  width: 100%;
+  background: color-mix(in srgb, var(--color-bg-card) 60%, transparent);
+  border: 0.5px solid color-mix(in srgb, var(--color-purple-dim) 60%, transparent);
+  border-radius: var(--border-radius-md);
+  padding: 0.65rem 0.875rem;
+  font-size: 0.875rem;
+  color: var(--color-purple-ghost);
+  transition: border-color 0.2s;
+  outline: none;
+
+  &::placeholder {
+    color: color-mix(in srgb, var(--color-purple-light) 30%, transparent);
+  }
+
+  &:focus {
+    border-color: var(--color-purple-mid);
+  }
+}
+
+@utility footer-icon-link {
+  color: color-mix(in srgb, var(--color-purple-light) 40%, transparent);
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--color-purple-bright);
+  }
+}

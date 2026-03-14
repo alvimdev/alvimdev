@@ -1,0 +1,83 @@
+---
+import type { useTranslations } from '@/i18n/utils';
+
+interface Props {
+  t: ReturnType<typeof useTranslations>;
+}
+
+const { t } = Astro.props;
+
+const skills = [
+  { category: t.about.skills.frontend,    items: ['TypeScript', 'JavaScript', 'React', 'Next.js', 'Astro', 'Tailwind CSS', 'HTML/CSS'] },
+  { category: t.about.skills.backend,     items: ['Java', 'Spring Boot', 'Node.js'] },
+  { category: t.about.skills.database,    items: ['PostgreSQL', 'MySQL', 'DER/MR'] },
+  { category: t.about.skills.diagramming, items: ['UML', 'BPMN'] },
+  { category: t.about.skills.deploy,      items: ['Vercel', 'Netlify', 'Cloudflare', 'GitHub Pages', 'Render'] },
+];
+
+const timeline = [
+  { year: '2021', label: t.about.timeline.coltec, current: false },
+  { year: '2024', label: t.about.timeline.puc,    current: false },
+  { year: '2025', label: t.about.timeline.elo,    current: true  },
+];
+---
+
+<section id="about" class="relative py-32 px-6 md:px-10">
+  <div class="section-container">
+
+    <div class="flex items-center gap-4 mb-16">
+      <span class="text-xs tracking-[0.18em] uppercase text-purple-bright opacity-60">02</span>
+      <div class="h-px w-14 bg-purple-dim opacity-40"></div>
+      <h2 class="font-syne font-bold text-3xl text-purple-ghost">
+        {t.about.title}
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-16 items-start">
+
+      <!-- LEFT: bio + timeline -->
+      <div class="space-y-8">
+        <div class="space-y-4">
+          <p class="text-purple-light leading-relaxed text-[15px] font-light">
+            {t.about.bio1}
+          </p>
+          <p class="text-purple-light leading-relaxed text-[15px] font-light opacity-80">
+            {t.about.bio2}
+          </p>
+        </div>
+
+        <div class="pt-6 border-t border-purple-dim border-opacity-30">
+          {timeline.map(({ year, label, current }, i) => (
+            <div class="flex gap-4">
+              <div class="flex flex-col items-center w-8 shrink-0">
+                <div class={`w-2 h-2 rounded-full mt-1 shrink-0 border ${current ? 'bg-purple-bright border-purple-mid' : 'bg-purple-mid border-purple-dim'}`}></div>
+                {i < timeline.length - 1 && (
+                  <div class="w-px flex-1 min-h-7 bg-linear-to-b from-purple-dim to-transparent opacity-60 mt-1"></div>
+                )}
+              </div>
+              <div class="pb-7">
+                <span class="font-mono text-[11px] text-purple-bright opacity-60 block leading-none mb-1">{year}</span>
+                <span class="text-sm text-purple-light opacity-85">{label}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- RIGHT: skill cards -->
+      <div class="space-y-3">
+        {skills.map(({ category, items }) => (
+          <div class="skill-card">
+            <p class="skill-card-cat">{category}</p>
+            <div class="flex flex-wrap gap-1.5">
+              {items.map((skill) => (
+                <span class="skill-chip">{skill}</span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+    </div>
+  </div>
+</section>

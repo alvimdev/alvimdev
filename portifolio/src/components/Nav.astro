@@ -1,0 +1,74 @@
+---
+import type { useTranslations } from '@/i18n/utils';
+
+interface Props {
+  t: ReturnType<typeof useTranslations>;
+  locale: 'pt' | 'en';
+}
+
+const { t, locale } = Astro.props;
+---
+
+<header id="nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+  <div class="section-container h-16 flex items-center justify-between">
+
+    <a href={locale === 'pt' ? '/' : '/en'}
+       class="nav-logo-link inline-flex h-16 items-center justify-center font-syne font-bold text-purple-ghost hover:text-purple-bright transition-colors text-sm tracking-tight"
+       aria-label={locale === 'pt' ? 'Inicio' : 'Home'}>
+      <!-- ba<span class="text-purple-bright">.</span> -->
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="sr-only">{locale === 'pt' ? 'Inicio' : 'Home'}</span>
+    </a>
+
+    <nav class="flex items-center gap-6">
+      <!-- links somem no mobile -->
+      <div class="hidden md:flex items-center gap-6">
+        <a href="#about"    class="nav-link">{t.nav.about}</a>
+        <a href="#projects" class="nav-link">{t.nav.projects}</a>
+        <a href="#contact"  class="nav-link">{t.nav.contact}</a>
+      </div>
+
+      <a href={locale === 'pt' ? '/en' : '/'}
+         class="text-xs tracking-widest uppercase text-purple-dim hover:text-purple-bright transition-colors border border-purple-dim rounded-full px-3 py-1 hover:border-purple-mid">
+        {locale === 'pt' ? 'EN' : 'PT'}
+      </a>
+    </nav>
+
+  </div>
+</header>
+
+<script>
+  const nav = document.getElementById('nav')!;
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 40) {
+      nav.style.background = 'rgba(10, 8, 18, 0.85)';
+      nav.style.backdropFilter = 'blur(12px)';
+      nav.style.borderBottom = '1px solid rgba(61, 45, 112, 0.3)';
+    } else {
+      nav.style.background = 'transparent';
+      nav.style.backdropFilter = 'none';
+      nav.style.borderBottom = 'none';
+    }
+  });
+</script>
+
+<style>
+  .nav-logo-link {
+    line-height: 0;
+  }
+
+  .logo-mark {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    background-color: var(--color-purple-ghost);
+    -webkit-mask: url('/logo-removebg.png') center / contain no-repeat;
+    mask: url('/logo-removebg.png') center / contain no-repeat;
+    transition: background-color 220ms ease, transform 220ms ease;
+  }
+
+  .nav-logo-link:hover .logo-mark {
+    background-color: var(--color-purple-bright);
+    transform: scale(1.06);
+  }
+</style>

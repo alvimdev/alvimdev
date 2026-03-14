@@ -1,0 +1,41 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'alvimdev | Portfolio',
+  description = 'Portfólio de Alvimdev, desenvolvedor full-stack e entusiasta de tecnologia.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/logo-alt-removebg.png" />
+  </head>
+  <body class="bg-bg-base overflow-x-hidden">
+    <slot />
+  </body>
+</html>
+
+<script>
+  const hasVisited = sessionStorage.getItem('locale-checked');
+  if (!hasVisited) {
+    sessionStorage.setItem('locale-checked', '1');
+    const lang = navigator.language.toLowerCase();
+    const isPt = lang.startsWith('pt');
+    const onPt = !window.location.pathname.startsWith('/en');
+    const onEn = window.location.pathname.startsWith('/en');
+
+    if (!isPt && onPt) window.location.replace('/en');
+    if (isPt && onEn) window.location.replace('/');
+  }
+</script>

@@ -1,0 +1,11 @@
+@utility nav-link {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-purple-light) 50%, transparent);
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--color-purple-bright);
+  }
+}

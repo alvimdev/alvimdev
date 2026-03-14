@@ -1,0 +1,24 @@
+@utility skill-card {
+  border: 0.5px solid color-mix(in srgb, var(--color-purple-dim) 60%, transparent);
+  border-radius: var(--border-radius-md);
+  background: color-mix(in srgb, var(--color-bg-card) 40%, transparent);
+  padding: 0.75rem 0.875rem;
+}
+
+@utility skill-card-cat {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-purple-bright);
+  opacity: 0.5;
+  margin-bottom: 0.5rem;
+}
+
+@utility skill-chip {
+  font-size: 12px;
+  padding: 2px 9px;
+  border-radius: var(--border-radius-sm);
+  color: var(--color-purple-light);
+  background: color-mix(in srgb, var(--color-purple-dim) 30%, transparent);
+  border: 0.5px solid color-mix(in srgb, var(--color-purple-dim) 60%, transparent);
+}

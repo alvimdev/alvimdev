@@ -1,0 +1,22 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { useTranslations } from "@/i18n/utils";
+import Hero from "@/components/Hero.astro";
+import Nav from "@/components/Nav.astro";
+import About from "@/components/About.astro";
+import Projects from "@/components/Projects.astro";
+import Footer from "@/components/Footer.astro";
+
+const t = useTranslations("pt");
+---
+
+<BaseLayout>
+  <Nav t={t} locale="pt" />
+  <main>
+    <!-- componentes vão entrar aqui com t={t} -->
+    <Hero t={t} locale="pt" />
+    <About t={t} />
+    <Projects t={t} />
+  </main>
+  <Footer t={t} locale="pt" />
+</BaseLayout>
