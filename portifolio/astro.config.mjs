@@ -8,6 +8,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   adapter: vercel(),
+  output: 'server',
   i18n: {
     defaultLocale: 'pt',
     locales: ['en', 'pt'],
